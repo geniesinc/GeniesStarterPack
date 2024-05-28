@@ -1,0 +1,168 @@
+fileFormatVersion: 2
+guid: c9a3f66790036489e908c53efd947639
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EyeMaterialTiger_Converted
+    second: {fileID: 2100000, guid: 61c73a1d547e741f7b0704d938a0e1cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EyebrowEyelashTransparentPBR
+    second: {fileID: 2100000, guid: 4ba4cae7b5d674ca0b4c44b50b1e9eb3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MegaHair_Converted
+    second: {fileID: 2100000, guid: 93253d4ca3cff4509b1e63326d0ee138, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MegaSkin_Converted
+    second: {fileID: 2100000, guid: e70dd0188062145cbafdb9dc55f4007f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RaceDefaultPBR
+    second: {fileID: 2100000, guid: c9bda72293bf045edb091b2b56ac380e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: URP_Default
+    second: {fileID: 2100000, guid: cb9f2f497aa864a7da937e2aa2cd3c8f, type: 2}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 804e1ce4c496647cfa3f1a1134187c71, type: 3}
+  _removeEmptyRootObjects: 1
+  _scaleFactor: 1
+  _maximumLod: 300
+  _readWriteEnabled: 1
+  _generateColliders: 0
+  _swapUvs: 0
+  _generateLightmapUVs: 0
+  _importBlendShapeNames: 1
+  _blendShapeFrameWeight:
+    _option: 0
+    _multiplier: 1
+  _importNormals: 0
+  _importTangents: 0
+  _importCamera: 2
+  _importAnimations: 2
+  _addAnimatorComponent: 0
+  _animationLoopTime: 1
+  _animationLoopPose: 0
+  _importMaterials: 1
+  _enableGpuInstancing: 0
+  _useSceneNameIdentifier: 1
+  _textureCompression: -50
+  optimizeGameObjects: 0
+  materials:
+  - {fileID: 8160159488410632883, guid: c9a3f66790036489e908c53efd947639, type: 3}
+  - {fileID: -9049782104564560046, guid: c9a3f66790036489e908c53efd947639, type: 3}
+  - {fileID: 5250931398056645115, guid: c9a3f66790036489e908c53efd947639, type: 3}
+  - {fileID: -797388587169185306, guid: c9a3f66790036489e908c53efd947639, type: 3}
+  - {fileID: -1484244470325188554, guid: c9a3f66790036489e908c53efd947639, type: 3}
+  - {fileID: 9068731268027288549, guid: c9a3f66790036489e908c53efd947639, type: 3}
+  textures:
+  - {fileID: 317228957159485222, guid: c9a3f66790036489e908c53efd947639, type: 3}
+  - {fileID: 3205815244423575453, guid: c9a3f66790036489e908c53efd947639, type: 3}
+  - {fileID: 7615730043962696003, guid: c9a3f66790036489e908c53efd947639, type: 3}
+  - {fileID: 4553714576456627672, guid: c9a3f66790036489e908c53efd947639, type: 3}
+  - {fileID: 5545404395459656474, guid: c9a3f66790036489e908c53efd947639, type: 3}
+  - {fileID: 649047801474312210, guid: c9a3f66790036489e908c53efd947639, type: 3}
+  - {fileID: 8637098635252691438, guid: c9a3f66790036489e908c53efd947639, type: 3}
+  - {fileID: -182568969002143207, guid: c9a3f66790036489e908c53efd947639, type: 3}
+  - {fileID: -3353783129737904019, guid: c9a3f66790036489e908c53efd947639, type: 3}
+  - {fileID: 5011280388516124129, guid: c9a3f66790036489e908c53efd947639, type: 3}
+  - {fileID: -9015775104538303008, guid: c9a3f66790036489e908c53efd947639, type: 3}
+  - {fileID: -7398984266485178129, guid: c9a3f66790036489e908c53efd947639, type: 3}
+  - {fileID: 6564413029799362732, guid: c9a3f66790036489e908c53efd947639, type: 3}
+  - {fileID: 7484642608217859592, guid: c9a3f66790036489e908c53efd947639, type: 3}
+  - {fileID: 7384040255579438729, guid: c9a3f66790036489e908c53efd947639, type: 3}
+  - {fileID: 6047161571429006915, guid: c9a3f66790036489e908c53efd947639, type: 3}
+  - {fileID: -8819276149083726850, guid: c9a3f66790036489e908c53efd947639, type: 3}
+  - {fileID: 2180497357436164542, guid: c9a3f66790036489e908c53efd947639, type: 3}
+  - {fileID: -171033734270841109, guid: c9a3f66790036489e908c53efd947639, type: 3}
+  - {fileID: -4342364515509195587, guid: c9a3f66790036489e908c53efd947639, type: 3}
+  - {fileID: -5753901551280265791, guid: c9a3f66790036489e908c53efd947639, type: 3}
+  hasSceneData: 1
+  hasAnimationData: 0
+  hasMaterialData: 1
+  hasTextureData: 1
+  animations: []
+  _extensions:
+  - name: KHR_texture_transform
+    supported: 1
+    used: 1
+    required: 0
+  _textures:
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  _mainAssetIdentifier: scenes/Sticker
+  _importPlugins: []
