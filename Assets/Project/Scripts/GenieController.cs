@@ -17,7 +17,8 @@ public class GenieController : MonoBehaviour
     private float acceleration_translation = 5f;
     private float acceleration_rotation = 20f;
 
-    private float idleTimer = 60f;
+    private const string jumpTriggerName = "Jump";
+    private const string waveTriggerName = "Wave";
 
     private void Start()
     {
@@ -58,12 +59,12 @@ public class GenieController : MonoBehaviour
 
     private void OnPlayerJump(InputAction.CallbackContext obj)
     {
-        animator.SetTrigger("Jump");
+        animator.SetTrigger(jumpTriggerName);
     }
 
     private void OnPlayerWave(InputAction.CallbackContext obj)
     {
-        animator.SetTrigger("Wave");
+        animator.SetTrigger(waveTriggerName);
     }
 
     private void OnPlayerMove(Vector2 moveDir)
