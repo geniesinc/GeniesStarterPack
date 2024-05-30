@@ -494,11 +494,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e49e020351f7145f098fe6a2a7b413f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thumbnailTexture: {fileID: 0}
   animator: {fileID: 8282082340869186723}
   boxCollider: {fileID: 0}
   skinnedMeshRenderers: []
-  moveSpeed: 2
 --- !u!1001 &8282082340869186719
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -547,6 +545,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7923908992246653214, guid: 128b63ea3c4d14f7b836015c71057531, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 1f19fa5230e9c470fa07564a17dfd5bb, type: 2}
     - target: {fileID: 8043954901758989766, guid: 128b63ea3c4d14f7b836015c71057531, type: 3}
       propertyPath: m_Name
       value: Rumor

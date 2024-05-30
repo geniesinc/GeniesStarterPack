@@ -1,19 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-// Useful for UI updates
-public enum GenieAnim : int
-{
-    Idle = 0,
-    Walk = 1,
-    Run = 2,
-    Dancing = 3,
-    Jump = 4,
-    Peace = 5,
-    Yaw = 6,
-    Wave = 7
-}
-
 
 /// <summary>
 /// For now, we are only considering that there will ever be one Genie in play!
@@ -30,15 +17,19 @@ public class GenieController : MonoBehaviour
     private GeniePlayerActions geniePlayerActions;
     private InputAction moveAction;
 
+    private float velocity = 0f;
+    private float acceleration_anim = 1f;
+    private float acceleration_translation = 5f;
+    private float acceleration_rotation = 20f;
+
     private void Start()
     {
+        // Setup the input system
         geniePlayerActions = new GeniePlayerActions();
-
+        // Listen to move input
         moveAction = geniePlayerActions.Player.Move;
         moveAction.Enable();
-
-        geniePlayerActions.Player.Look.Enable();
-
+        // Listen for jump input
         geniePlayerActions.Player.Jump.performed += OnPlayerJump;
         geniePlayerActions.Player.Jump.Enable();
 
@@ -50,72 +41,56 @@ public class GenieController : MonoBehaviour
         }
     }
 
-    private void OnDestroy()
-    {
-        geniePlayerActions.Player.Jump.performed -= OnPlayerJump;
-
-        geniePlayerActions.Player.Move.Disable();
-        geniePlayerActions.Player.Look.Disable();
-        geniePlayerActions.Player.Jump.Disable();
-    }
-
     private void FixedUpdate()
     {
         OnPlayerMove(moveAction.ReadValue<Vector2>());
     }
 
+    private void OnDestroy()
+    {
+        // Clean up listeners
+        geniePlayerActions.Player.Jump.performed -= OnPlayerJump;
+        geniePlayerActions.Player.Move.Disable();
+        geniePlayerActions.Player.Look.Disable();
+        geniePlayerActions.Player.Jump.Disable();
+    }
+
     private void OnPlayerJump(InputAction.CallbackContext obj)
     {
         Debug.Log("Jump!");
-        SetGenieAnim((int)GenieAnim.Jump, isPosing: true);
     }
 
     private void OnPlayerMove(Vector2 moveDir)
     {
-        if (moveDir.magnitude > 0)
+        Vector3 moveDirRelative = new Vector3(moveDir.x,
+                                               0f,
+                                               moveDir.y).normalized;
+
+        Vector3 moveDirWorld = Quaternion.Euler(0,
+                                                Camera.main.transform.eulerAngles.y,
+                                                0) * moveDirRelative;
+
+        // Clear velocity
+        if(moveDir.magnitude == 0)
         {
-            Vector3 inputVector = new Vector3(moveDir.x,
-                                              0f,
-                                              moveDir.y).normalized;
-
-            Vector3 rotatedVector = Quaternion.Euler(0,
-                                                     Camera.main.transform.eulerAngles.y,
-                                                     0) * inputVector;
-
-            // Make it walk or run depending on how pushed is the joystick
-            float moveSpeed = 0.5f;
-            if (Input.GetKey(KeyCode.LeftShift))
-            {
-                moveSpeed = 1;
-            }
-
-            SetGenieAnim((int)GenieAnim.Walk);
-
-            //Blending parameter between walk and run
-            animator.SetFloat("MoveSpeed", moveSpeed);
-
-            transform.position += rotatedVector * moveSpeed * 4 * transform.localScale.x * Time.deltaTime;
-
-            // Target rotation should check if look rotation viewing vector is smaller/larger than zero,
-            // or it will make a noisy warning (and have no visible result).
-            Quaternion targetRotation = rotatedVector.magnitude > 0 ? Quaternion.LookRotation(rotatedVector, Vector3.up) :
-                                                                      Quaternion.identity;
-            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * 10f);
+            velocity = 0;
         }
-        else
+        // Add to velocity
+        else if (velocity < 1)
         {
-            //Stop Animation
-            SetGenieAnim((int)GenieAnim.Idle);
+            velocity += moveDir.magnitude * Time.deltaTime * acceleration_anim;
         }
-    }
 
-    public void SetGenieAnim(int whichAnim, bool isPosing = false)
-    {
-        animator.SetInteger("GenieAnim", whichAnim);
-        animator.SetBool("Posing", isPosing);
-        if (isPosing && whichAnim != (int)GenieAnim.Jump)
-        {
-            animator.SetTrigger("SwitchToJoystick");
-        }
+        //Blending parameter between walk and run
+        animator.SetFloat("Velocity", velocity);
+
+        transform.position += moveDirWorld * velocity * acceleration_translation
+                                * transform.localScale.x * Time.deltaTime;
+
+        // Target rotation should check if look rotation viewing vector is smaller/larger than zero,
+        // or it will make a noisy warning (and have no visible result).
+        Quaternion targetRotation = moveDirWorld.magnitude > 0 ? Quaternion.LookRotation(moveDirWorld, Vector3.up) :
+                                                                  Quaternion.identity;
+        transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * acceleration_rotation);
     }
 }

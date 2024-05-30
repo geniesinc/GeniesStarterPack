@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{855C7902-951D-108A-4F04-0C310985C615}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Project/Scripts/GenieController.cs">
     <Files>
-      <File FileName="Assets/Project/Scripts/GenieController.cs" Line="61" Column="13" />
+      <File FileName="Assets/Project/Scripts/GenieController.cs" Line="70" Column="59" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
