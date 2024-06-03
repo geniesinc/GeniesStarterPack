@@ -8,4 +8,4 @@ Sample Genies avatars with example locomotion and animation trees
 - https://converter.unionavatars.com/convert
 
 # Tutorials 
-- https://www.youtube.com/watch?v=SyA4PPiXorI
+- https://www.youtube.com/watch?v=SyA4PPiXorICl
