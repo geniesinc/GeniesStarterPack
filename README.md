@@ -21,4 +21,4 @@ You may give appropriate credit, provide a link to the license, and indicate if 
 
 No warranties are given, as the software is provided “as is.” At no time shall the authors or copyright holders be liable for any claim or damages arising from or in connection with the use of this software.
 
-Community Guidelines for third party usage [can be found here](https://vault.pactsafe.io/s/c6039daa-76fb-4b71-bb07-77676913b3fc/legal.html#template-m5a2r5gmn).
+By using this repository, you are agreeing to abide by our [Community Guidelines](https://vault.pactsafe.io/s/c6039daa-76fb-4b71-bb07-77676913b3fc/legal.html#template-m5a2r5gmn).
