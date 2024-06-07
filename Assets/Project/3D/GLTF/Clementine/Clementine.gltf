@@ -6171,88 +6171,88 @@
   ],
   "images": [
     {
-      "uri": "MegaSkin--_EmissionMap.png",
-      "name": "MegaSkin--_EmissionMap"
+      "uri": "Clementine_Skin_EmissionMap.png",
+      "name": "Skin_EmissionMap"
     },
     {
-      "uri": "MegaSkin--_BumpMap.png",
-      "name": "MegaSkin--_BumpMap"
+      "uri": "Clementine_Skin_BumpMap.png",
+      "name": "Skin_BumpMap"
     },
     {
-      "uri": "MegaSkin--_BaseMap.png",
-      "name": "MegaSkin--_BaseMap"
+      "uri": "Clementine_Skin_BaseMap.png",
+      "name": "Skin_BaseMap"
     },
     {
-      "uri": "MegaSkin--_MetallicGlossMap.png",
-      "name": "MegaSkin--_MetallicGlossMap"
+      "uri": "Clementine_Skin_MetallicGlossMap.png",
+      "name": "Skin_MetallicGlossMap"
     },
     {
-      "uri": "EyeMaterialTiger--_EmissionMap.png",
-      "name": "EyeMaterialTiger--_EmissionMap"
+      "uri": "Clementine_Eye_EmissionMap.png",
+      "name": "Eye_EmissionMap"
     },
     {
-      "uri": "EyeMaterialTiger--_BumpMap.png",
-      "name": "EyeMaterialTiger--_BumpMap"
+      "uri": "Clementine_Eye_BumpMap.png",
+      "name": "Eye_BumpMap"
     },
     {
-      "uri": "EyeMaterialTiger--_BaseMap.png",
-      "name": "EyeMaterialTiger--_BaseMap"
+      "uri": "Clementine_Eye_BaseMap.png",
+      "name": "Eye_BaseMap"
     },
     {
-      "uri": "EyeMaterialTiger--_MetallicGlossMap.png",
-      "name": "EyeMaterialTiger--_MetallicGlossMap"
+      "uri": "Clementine_Eye_MetallicGlossMap.png",
+      "name": "Eye_MetallicGlossMap"
     },
     {
-      "uri": "EyebrowEyelashTransparentPBR--_BumpMap.png",
-      "name": "EyebrowEyelashTransparentPBR--_BumpMap"
+      "uri": "Clementine_EyebrowEyelash_BumpMap.png",
+      "name": "EyebrowEyelash_BumpMap"
     },
     {
-      "uri": "EyebrowEyelashTransparentPBR--_BaseMap.png",
-      "name": "EyebrowEyelashTransparentPBR--_BaseMap"
+      "uri": "Clementine_EyebrowEyelash_BaseMap.png",
+      "name": "EyebrowEyelash_BaseMap"
     },
     {
-      "uri": "EyebrowEyelashTransparentPBR--_MetallicGlossMap.png",
-      "name": "EyebrowEyelashTransparentPBR--_MetallicGlossMap"
+      "uri": "Clementine_EyebrowEyelash_MetallicGlossMap.png",
+      "name": "EyebrowEyelash_MetallicGlossMap"
     },
     {
-      "uri": "RaceDefaultPBR--_BumpMap.png",
-      "name": "RaceDefaultPBR--_BumpMap"
+      "uri": "Clementine_Mouth_BumpMap.png",
+      "name": "Mouth_BumpMap"
     },
     {
-      "uri": "RaceDefaultPBR--_BaseMap.png",
-      "name": "RaceDefaultPBR--_BaseMap"
+      "uri": "Clementine_Mouth_BaseMap.png",
+      "name": "Mouth_BaseMap"
     },
     {
-      "uri": "RaceDefaultPBR--_MetallicGlossMap.png",
-      "name": "RaceDefaultPBR--_MetallicGlossMap"
+      "uri": "Clementine_Mouth_MetallicGlossMap.png",
+      "name": "Mouth_MetallicGlossMap"
     },
     {
-      "uri": "MegaHair--_EmissionMap.png",
-      "name": "MegaHair--_EmissionMap"
+      "uri": "Clementine_Hair_EmissionMap.png",
+      "name": "Hair_EmissionMap"
     },
     {
-      "uri": "MegaHair--_BumpMap.png",
-      "name": "MegaHair--_BumpMap"
+      "uri": "Clementine_Hair_BumpMap.png",
+      "name": "Hair_BumpMap"
     },
     {
-      "uri": "MegaHair--_BaseMap.png",
-      "name": "MegaHair--_BaseMap"
+      "uri": "Clementine_Hair_BaseMap.png",
+      "name": "Hair_BaseMap"
     },
     {
-      "uri": "MegaHair--_MetallicGlossMap.png",
-      "name": "MegaHair--_MetallicGlossMap"
+      "uri": "Clementine_Hair_MetallicGlossMap.png",
+      "name": "Hair_MetallicGlossMap"
     },
     {
-      "uri": "URP_Default--_BumpMap.png",
-      "name": "URP_Default--_BumpMap"
+      "uri": "Clementine_Clothes_BumpMap.png",
+      "name": "Clothes_BumpMap"
     },
     {
-      "uri": "URP_Default--_BaseMap.png",
-      "name": "URP_Default--_BaseMap"
+      "uri": "Clementine_Clothes_BaseMap.png",
+      "name": "Clothes_BaseMap"
     },
     {
-      "uri": "URP_Default--_MetallicGlossMap.png",
-      "name": "URP_Default--_MetallicGlossMap"
+      "uri": "Clementine_Clothes_MetallicGlossMap.png",
+      "name": "Clothes_MetallicGlossMap"
     }
   ],
   "materials": [
@@ -6297,7 +6297,7 @@
         1.0
       ],
       "doubleSided": true,
-      "name": "MegaSkin_Converted"
+      "name": "Skin_Mat"
     },
     {
       "pbrMetallicRoughness": {
@@ -6340,7 +6340,7 @@
         1.0
       ],
       "doubleSided": true,
-      "name": "EyeMaterialTiger_Converted"
+      "name": "Eye_Mat"
     },
     {
       "pbrMetallicRoughness": {
@@ -6371,7 +6371,7 @@
       },
       "alphaMode": "BLEND",
       "doubleSided": true,
-      "name": "EyebrowEyelashTransparentPBR"
+      "name": "EyebrowEyelash_Mat"
     },
     {
       "pbrMetallicRoughness": {
@@ -6401,7 +6401,7 @@
         }
       },
       "doubleSided": true,
-      "name": "RaceDefaultPBR"
+      "name": "Mouth_Mat"
     },
     {
       "pbrMetallicRoughness": {
@@ -6444,7 +6444,7 @@
         1.0
       ],
       "doubleSided": true,
-      "name": "MegaHair_Converted"
+      "name": "Hair_Mat"
     },
     {
       "pbrMetallicRoughness": {
@@ -6474,7 +6474,7 @@
         }
       },
       "doubleSided": true,
-      "name": "URP_Default"
+      "name": "Clothes_Mat"
     }
   ],
   "meshes": [
@@ -10668,107 +10668,107 @@
     {
       "sampler": 0,
       "source": 0,
-      "name": "MegaSkin--_EmissionMap"
+      "name": "Skin_EmissionMap"
     },
     {
       "sampler": 0,
       "source": 1,
-      "name": "MegaSkin--_BumpMap"
+      "name": "Skin_BumpMap"
     },
     {
       "sampler": 0,
       "source": 2,
-      "name": "MegaSkin--_BaseMap"
+      "name": "Skin_BaseMap"
     },
     {
       "sampler": 0,
       "source": 3,
-      "name": "MegaSkin--_MetallicGlossMap"
+      "name": "Skin_MetallicGlossMap"
     },
     {
       "sampler": 0,
       "source": 4,
-      "name": "EyeMaterialTiger--_EmissionMap"
+      "name": "Eye_EmissionMap"
     },
     {
       "sampler": 0,
       "source": 5,
-      "name": "EyeMaterialTiger--_BumpMap"
+      "name": "Eye_BumpMap"
     },
     {
       "sampler": 0,
       "source": 6,
-      "name": "EyeMaterialTiger--_BaseMap"
+      "name": "Eye_BaseMap"
     },
     {
       "sampler": 0,
       "source": 7,
-      "name": "EyeMaterialTiger--_MetallicGlossMap"
+      "name": "Eye_MetallicGlossMap"
     },
     {
       "sampler": 1,
       "source": 8,
-      "name": "EyebrowEyelashTransparentPBR--_BumpMap"
+      "name": "EyebrowEyelash_BumpMap"
     },
     {
       "sampler": 1,
       "source": 9,
-      "name": "EyebrowEyelashTransparentPBR--_BaseMap"
+      "name": "EyebrowEyelash_BaseMap"
     },
     {
       "sampler": 1,
       "source": 10,
-      "name": "EyebrowEyelashTransparentPBR--_MetallicGlossMap"
+      "name": "EyebrowEyelash_MetallicGlossMap"
     },
     {
       "sampler": 1,
       "source": 11,
-      "name": "RaceDefaultPBR--_BumpMap"
+      "name": "Mouth_BumpMap"
     },
     {
       "sampler": 1,
       "source": 12,
-      "name": "RaceDefaultPBR--_BaseMap"
+      "name": "Mouth_BaseMap"
     },
     {
       "sampler": 1,
       "source": 13,
-      "name": "RaceDefaultPBR--_MetallicGlossMap"
+      "name": "Mouth_MetallicGlossMap"
     },
     {
       "sampler": 0,
       "source": 14,
-      "name": "MegaHair--_EmissionMap"
+      "name": "Hair_EmissionMap"
     },
     {
       "sampler": 0,
       "source": 15,
-      "name": "MegaHair--_BumpMap"
+      "name": "Hair_BumpMap"
     },
     {
       "sampler": 0,
       "source": 16,
-      "name": "MegaHair--_BaseMap"
+      "name": "Hair_BaseMap"
     },
     {
       "sampler": 0,
       "source": 17,
-      "name": "MegaHair--_MetallicGlossMap"
+      "name": "Hair_MetallicGlossMap"
     },
     {
       "sampler": 1,
       "source": 18,
-      "name": "URP_Default--_BumpMap"
+      "name": "Clothes_BumpMap"
     },
     {
       "sampler": 1,
       "source": 19,
-      "name": "URP_Default--_BaseMap"
+      "name": "Clothes_BaseMap"
     },
     {
       "sampler": 1,
       "source": 20,
-      "name": "URP_Default--_MetallicGlossMap"
+      "name": "Clothes_MetallicGlossMap"
     }
   ]
 }
