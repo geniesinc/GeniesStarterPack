@@ -48,7 +48,7 @@ Animator:
   m_GameObject: {fileID: 2951026172509229516}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 00d040b4ae2fb4a04824fcd6a52dc218, type: 3}
-  m_Controller: {fileID: 9100000, guid: 40db3173a05ae3242b1c182a09b0a183, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1ba4b6ac184814c08ab751f62f7a1808, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -84,7 +84,7 @@ CharacterController:
   m_StepOffset: 0.25
   m_SkinWidth: 0.02
   m_MinMoveDistance: 0
-  m_Center: {x: 0, y: 0.825, z: 0}
+  m_Center: {x: 0, y: 0.855, z: 0}
 --- !u!114 &3685375537313189954
 MonoBehaviour:
   m_ObjectHideFlags: 0

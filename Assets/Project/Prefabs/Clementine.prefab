@@ -79,7 +79,7 @@ Animator:
   m_GameObject: {fileID: 8716981102077406623}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: bf88cb4dbf25c47c290dde11710e441f, type: 3}
-  m_Controller: {fileID: 9100000, guid: 40db3173a05ae3242b1c182a09b0a183, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1ba4b6ac184814c08ab751f62f7a1808, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -115,7 +115,7 @@ CharacterController:
   m_StepOffset: 0.25
   m_SkinWidth: 0.02
   m_MinMoveDistance: 0
-  m_Center: {x: 0, y: 0.825, z: 0}
+  m_Center: {x: 0, y: 0.85, z: 0}
 --- !u!114 &3059743744483843173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -837,7 +837,8 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5866666021909216657, guid: bf88cb4dbf25c47c290dde11710e441f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

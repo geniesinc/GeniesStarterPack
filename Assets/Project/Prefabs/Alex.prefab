@@ -34,7 +34,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 7203783849324358460}
+  - {fileID: 5926010352749558919}
   - {fileID: 2196733785378040833}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -63,7 +63,7 @@ CharacterController:
   m_StepOffset: 0.25
   m_SkinWidth: 0.02
   m_MinMoveDistance: 0
-  m_Center: {x: 0, y: 0.825, z: 0}
+  m_Center: {x: 0, y: 0.785, z: 0}
 --- !u!114 &4800202266523448069
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -209,7 +209,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1627520428688798001}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &7237920407189310679
+--- !u!1001 &6176636834388499308
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -261,22 +261,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Alex
       objectReference: {fileID: 0}
-    - target: {fileID: 3692934631454041330, guid: 719743c5b67b543b6ba50b119124aa5c, type: 3}
-      propertyPath: m_BlendShapeWeights.Array.data[7]
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3692934631454041330, guid: 719743c5b67b543b6ba50b119124aa5c, type: 3}
-      propertyPath: m_BlendShapeWeights.Array.data[24]
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5866666021909216657, guid: 719743c5b67b543b6ba50b119124aa5c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 719743c5b67b543b6ba50b119124aa5c, type: 3}
---- !u!4 &7203783849324358460 stripped
+--- !u!4 &5926010352749558919 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 719743c5b67b543b6ba50b119124aa5c, type: 3}
-  m_PrefabInstance: {fileID: 7237920407189310679}
+  m_PrefabInstance: {fileID: 6176636834388499308}
   m_PrefabAsset: {fileID: 0}
