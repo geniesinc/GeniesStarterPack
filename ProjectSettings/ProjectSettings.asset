@@ -837,7 +837,7 @@ PlayerSettings:
   XboxOneOverrideIdentityPublisher: 
   vrEditorSettings: {}
   cloudServicesEnabled:
-    UNet: 1
+    UNet: 0
   luminIcon:
     m_Name: 
     m_ModelFolderPath: 
@@ -857,7 +857,6 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: 126120aa-4eb0-46a6-9810-f795f85c377c
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
   projectName: GeniesStarterPack.Unity
