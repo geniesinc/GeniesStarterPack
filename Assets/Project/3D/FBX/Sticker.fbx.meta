@@ -12,7 +12,17 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Clothes_Mat_blinn
+    second: {fileID: 2100000, guid: cb9f2f497aa864a7da937e2aa2cd3c8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Eye_Mat
+    second: {fileID: 2100000, guid: 61c73a1d547e741f7b0704d938a0e1cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eye_Mat_blinn
     second: {fileID: 2100000, guid: 61c73a1d547e741f7b0704d938a0e1cf, type: 2}
   - first:
       type: UnityEngine:Material
@@ -22,7 +32,17 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: EyebrowEyelash_Mat_blinn
+    second: {fileID: 2100000, guid: 4ba4cae7b5d674ca0b4c44b50b1e9eb3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Hair_Mat
+    second: {fileID: 2100000, guid: 93253d4ca3cff4509b1e63326d0ee138, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hair_Mat_blinn
     second: {fileID: 2100000, guid: 93253d4ca3cff4509b1e63326d0ee138, type: 2}
   - first:
       type: UnityEngine:Material
@@ -32,7 +52,17 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Mouth_Mat_blinn
+    second: {fileID: 2100000, guid: c9bda72293bf045edb091b2b56ac380e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Skin_Mat
+    second: {fileID: 2100000, guid: e70dd0188062145cbafdb9dc55f4007f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skin_Mat_blinn
     second: {fileID: 2100000, guid: e70dd0188062145cbafdb9dc55f4007f, type: 2}
   materials:
     materialImportMode: 2
