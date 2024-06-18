@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Project/Scenes/SimpleWASD.unity
-    guid: 3f7ff60f4f59446b882ac99a8171c143
+  - enabled: 1
+    path: Assets/Project/Scenes/AvatarLocomotion.unity
+    guid: 9e1fa78dfffa6418c800779d73a583fa
   m_configObjects: {}
