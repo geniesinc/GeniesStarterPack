@@ -11,6 +11,10 @@
 - Load the **AvatarLocomotion.unity** scene file and hit Play
 - Use WASD + Space to navigate within the sandbox environment
 
+### Contact Us
+
+Genies Avatar Starter Pack is a free to use asset. If you used it in your project and would like to provide feedback to Genies please contact us at devrelations@genies.com. If you would like to be featured by Genies or want to hear about our developer programs and commercial opportunities, please contact us at contact@genies.com.
+
 ### Licensing
 
 © 2024 Genies, Inc.
