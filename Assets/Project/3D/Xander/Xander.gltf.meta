@@ -1,0 +1,190 @@
+fileFormatVersion: 2
+guid: b5b0555412f9e4613b8ff7f07ee24ad0
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EyeMaterialTiger_Converted
+    second: {fileID: 2100000, guid: 925f4b0547f984e39a41be9d6d1a1adc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EyebrowEyelashTransparentPBR
+    second: {fileID: 2100000, guid: d31d224e6dfbf4f748c0f58ab0fb4720, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MegaHair_Converted
+    second: {fileID: 2100000, guid: 25123448d2d934338a2f1d41c0500a6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MegaSkin_Converted
+    second: {fileID: 2100000, guid: 4fe1d57a131fb45ebae78f8a4144fe00, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RaceDefaultPBR
+    second: {fileID: 2100000, guid: b44a5a78f13a74721b4bad3eb9ff833f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: URP_Default
+    second: {fileID: 2100000, guid: c4aec7e71919e4df2a15a734bce5d7d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hoodie-0069-yeezy_lock01_Converted
+    second: {fileID: 2100000, guid: 926a43239412148239f72958b58340d3, type: 2}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 804e1ce4c496647cfa3f1a1134187c71, type: 3}
+  _removeEmptyRootObjects: 1
+  _scaleFactor: 1
+  _maximumLod: 300
+  _readWriteEnabled: 1
+  _generateColliders: 0
+  _swapUvs: 0
+  _generateLightmapUVs: 0
+  _importBlendShapeNames: 1
+  _blendShapeFrameWeight:
+    _option: 0
+    _multiplier: 1
+  _importNormals: 0
+  _importTangents: 0
+  _importCamera: 2
+  _importAnimations: 2
+  _addAnimatorComponent: 0
+  _animationLoopTime: 1
+  _animationLoopPose: 0
+  _importMaterials: 1
+  _enableGpuInstancing: 0
+  _useSceneNameIdentifier: 0
+  _textureCompression: -50
+  optimizeGameObjects: 0
+  materials:
+  - {fileID: 8160159488410632883, guid: b5b0555412f9e4613b8ff7f07ee24ad0, type: 3}
+  - {fileID: -9049782104564560046, guid: b5b0555412f9e4613b8ff7f07ee24ad0, type: 3}
+  - {fileID: 5250931398056645115, guid: b5b0555412f9e4613b8ff7f07ee24ad0, type: 3}
+  - {fileID: -797388587169185306, guid: b5b0555412f9e4613b8ff7f07ee24ad0, type: 3}
+  - {fileID: -1484244470325188554, guid: b5b0555412f9e4613b8ff7f07ee24ad0, type: 3}
+  - {fileID: 1223889035205921840, guid: b5b0555412f9e4613b8ff7f07ee24ad0, type: 3}
+  - {fileID: 9068731268027288549, guid: b5b0555412f9e4613b8ff7f07ee24ad0, type: 3}
+  textures:
+  - {fileID: 317228957159485222, guid: b5b0555412f9e4613b8ff7f07ee24ad0, type: 3}
+  - {fileID: 3205815244423575453, guid: b5b0555412f9e4613b8ff7f07ee24ad0, type: 3}
+  - {fileID: 7615730043962696003, guid: b5b0555412f9e4613b8ff7f07ee24ad0, type: 3}
+  - {fileID: 4553714576456627672, guid: b5b0555412f9e4613b8ff7f07ee24ad0, type: 3}
+  - {fileID: 5545404395459656474, guid: b5b0555412f9e4613b8ff7f07ee24ad0, type: 3}
+  - {fileID: 649047801474312210, guid: b5b0555412f9e4613b8ff7f07ee24ad0, type: 3}
+  - {fileID: 8637098635252691438, guid: b5b0555412f9e4613b8ff7f07ee24ad0, type: 3}
+  - {fileID: -182568969002143207, guid: b5b0555412f9e4613b8ff7f07ee24ad0, type: 3}
+  - {fileID: -3353783129737904019, guid: b5b0555412f9e4613b8ff7f07ee24ad0, type: 3}
+  - {fileID: 5011280388516124129, guid: b5b0555412f9e4613b8ff7f07ee24ad0, type: 3}
+  - {fileID: -9015775104538303008, guid: b5b0555412f9e4613b8ff7f07ee24ad0, type: 3}
+  - {fileID: -7398984266485178129, guid: b5b0555412f9e4613b8ff7f07ee24ad0, type: 3}
+  - {fileID: 6564413029799362732, guid: b5b0555412f9e4613b8ff7f07ee24ad0, type: 3}
+  - {fileID: 7484642608217859592, guid: b5b0555412f9e4613b8ff7f07ee24ad0, type: 3}
+  - {fileID: 7384040255579438729, guid: b5b0555412f9e4613b8ff7f07ee24ad0, type: 3}
+  - {fileID: 6047161571429006915, guid: b5b0555412f9e4613b8ff7f07ee24ad0, type: 3}
+  - {fileID: -8819276149083726850, guid: b5b0555412f9e4613b8ff7f07ee24ad0, type: 3}
+  - {fileID: 2180497357436164542, guid: b5b0555412f9e4613b8ff7f07ee24ad0, type: 3}
+  - {fileID: -1113166518572458310, guid: b5b0555412f9e4613b8ff7f07ee24ad0, type: 3}
+  - {fileID: 7515773659675189567, guid: b5b0555412f9e4613b8ff7f07ee24ad0, type: 3}
+  - {fileID: 4841346366160913686, guid: b5b0555412f9e4613b8ff7f07ee24ad0, type: 3}
+  - {fileID: -3536876603208816733, guid: b5b0555412f9e4613b8ff7f07ee24ad0, type: 3}
+  - {fileID: -171033734270841109, guid: b5b0555412f9e4613b8ff7f07ee24ad0, type: 3}
+  - {fileID: -4342364515509195587, guid: b5b0555412f9e4613b8ff7f07ee24ad0, type: 3}
+  - {fileID: -5753901551280265791, guid: b5b0555412f9e4613b8ff7f07ee24ad0, type: 3}
+  hasSceneData: 1
+  hasAnimationData: 0
+  hasMaterialData: 1
+  hasTextureData: 1
+  animations: []
+  _extensions:
+  - name: KHR_texture_transform
+    supported: 1
+    used: 1
+    required: 0
+  _textures:
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  _mainAssetIdentifier: main asset
+  _importPlugins: []

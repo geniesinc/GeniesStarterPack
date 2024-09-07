@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Project/Scenes/AvatarLocomotion.unity
+    path: Assets/Project/Scenes/Main.unity
     guid: 9e1fa78dfffa6418c800779d73a583fa
   m_configObjects: {}
