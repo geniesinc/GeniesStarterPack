@@ -28,6 +28,8 @@ ScriptedImporter:
   _animationLoopPose: 0
   _importMaterials: 1
   _enableGpuInstancing: 0
+  _texturesReadWriteEnabled: 1
+  _generateMipMaps: 1
   _useSceneNameIdentifier: 1
   _textureCompression: -50
   optimizeGameObjects: 0
@@ -59,22 +61,12 @@ ScriptedImporter:
   - {instanceID: 0}
   - {instanceID: 0}
   - {instanceID: 0}
-  - {instanceID: 0}
-  - {instanceID: 0}
-  - {instanceID: 0}
-  - {instanceID: 0}
-  - {instanceID: 0}
-  - {instanceID: 0}
   hasSceneData: 1
   hasAnimationData: 0
   hasMaterialData: 1
   hasTextureData: 1
   animations: []
-  _extensions:
-  - name: KHR_texture_transform
-    supported: 1
-    used: 1
-    required: 0
+  _extensions: []
   _textures:
   - texture: {instanceID: 0}
     shouldBeLinear: 0
@@ -86,7 +78,28 @@ ScriptedImporter:
     shouldBeLinear: 0
     shouldBeNormalMap: 0
   - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
     shouldBeLinear: 1
+    shouldBeNormalMap: 1
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 1
+    shouldBeNormalMap: 1
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
+    shouldBeNormalMap: 0
+  - texture: {instanceID: 0}
+    shouldBeLinear: 1
+    shouldBeNormalMap: 1
+  - texture: {instanceID: 0}
+    shouldBeLinear: 0
     shouldBeNormalMap: 0
   - texture: {instanceID: 0}
     shouldBeLinear: 0
@@ -99,24 +112,9 @@ ScriptedImporter:
     shouldBeNormalMap: 0
   - texture: {instanceID: 0}
     shouldBeLinear: 1
-    shouldBeNormalMap: 0
-  - texture: {instanceID: 0}
-    shouldBeLinear: 1
     shouldBeNormalMap: 1
   - texture: {instanceID: 0}
     shouldBeLinear: 0
-    shouldBeNormalMap: 0
-  - texture: {instanceID: 0}
-    shouldBeLinear: 1
-    shouldBeNormalMap: 0
-  - texture: {instanceID: 0}
-    shouldBeLinear: 1
-    shouldBeNormalMap: 1
-  - texture: {instanceID: 0}
-    shouldBeLinear: 0
-    shouldBeNormalMap: 0
-  - texture: {instanceID: 0}
-    shouldBeLinear: 1
     shouldBeNormalMap: 0
   - texture: {instanceID: 0}
     shouldBeLinear: 0
@@ -127,29 +125,5 @@ ScriptedImporter:
   - texture: {instanceID: 0}
     shouldBeLinear: 0
     shouldBeNormalMap: 0
-  - texture: {instanceID: 0}
-    shouldBeLinear: 1
-    shouldBeNormalMap: 0
-  - texture: {instanceID: 0}
-    shouldBeLinear: 0
-    shouldBeNormalMap: 0
-  - texture: {instanceID: 0}
-    shouldBeLinear: 1
-    shouldBeNormalMap: 1
-  - texture: {instanceID: 0}
-    shouldBeLinear: 0
-    shouldBeNormalMap: 0
-  - texture: {instanceID: 0}
-    shouldBeLinear: 1
-    shouldBeNormalMap: 0
-  - texture: {instanceID: 0}
-    shouldBeLinear: 1
-    shouldBeNormalMap: 1
-  - texture: {instanceID: 0}
-    shouldBeLinear: 0
-    shouldBeNormalMap: 0
-  - texture: {instanceID: 0}
-    shouldBeLinear: 1
-    shouldBeNormalMap: 0
-  _mainAssetIdentifier: scenes/Xander
+  _mainAssetIdentifier: scenes/Scene
   _importPlugins: []
