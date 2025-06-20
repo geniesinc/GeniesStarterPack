@@ -63,7 +63,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Submesh_4
-    second: {fileID: 2100000, guid: 2ee6ed9a3c8f64fdb8cea2c987281126, type: 2}
+    second: {fileID: 2100000, guid: d9ddf63dd24714d3690bfec081c7063c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
