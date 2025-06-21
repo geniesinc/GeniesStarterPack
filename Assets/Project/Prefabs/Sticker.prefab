@@ -261,6 +261,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sticker
       objectReference: {fileID: 0}
+    - target: {fileID: 4079149021634997973, guid: 764414bc85fe04e00b90b9688a909bff, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5866666021909216657, guid: 764414bc85fe04e00b90b9688a909bff, type: 3}
     m_RemovedGameObjects: []
