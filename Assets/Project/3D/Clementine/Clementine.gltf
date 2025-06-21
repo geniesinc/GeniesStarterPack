@@ -525,92 +525,92 @@
     {
       "name": "Submesh_0_Emission",
       "mimeType": "image/png",
-      "uri": "emissive_1.png"
+      "uri": "Textures/Submesh_0_Emission.png"
     },
     {
-      "name": "NormalMap_Texture",
+      "name": "Submesh_0_Normal",
       "mimeType": "image/png",
-      "uri": "normal_1.png"
+      "uri": "Textures/Submesh_0_Normal.tga"
     },
     {
       "name": "Submesh_0_Albedo",
       "mimeType": "image/png",
-      "uri": "baseColor_1.png"
+      "uri": "Textures/Submesh_0_Albedo.png"
     },
     {
       "name": "Submesh_1_Emission",
       "mimeType": "image/png",
-      "uri": "emissive_2.png"
+      "uri": "Textures/Submesh_1_Emission.png"
     },
     {
-      "name": "NormalMap_Texture_1",
+      "name": "Submesh_1_Normal",
       "mimeType": "image/png",
-      "uri": "normal_2.png"
+      "uri": "Textures/Submesh_1_Normal.tga"
     },
     {
       "name": "Submesh_1_Albedo",
       "mimeType": "image/png",
-      "uri": "baseColor_2.png"
+      "uri": "Textures/Submesh_1_Albedo.png"
     },
     {
-      "name": "NormalMap_Texture_2",
+      "name": "Submesh_2_Normal",
       "mimeType": "image/png",
-      "uri": "normal_3.png"
+      "uri": "Textures/Submesh_2_Normal.tga"
     },
     {
       "name": "Submesh_2_Albedo",
       "mimeType": "image/png",
-      "uri": "baseColor_3.png"
+      "uri": "Textures/Submesh_2_Albedo.png"
     },
     {
       "name": "Submesh_3_Emission",
       "mimeType": "image/png",
-      "uri": "emissive_3.png"
+      "uri": "Textures/Submesh_3_Emission.png"
     },
     {
-      "name": "NormalMap_Texture_3",
+      "name": "Submesh_3_Normal",
       "mimeType": "image/png",
-      "uri": "normal_4.png"
+      "uri": "Textures/Submesh_3_Normal.tga"
     },
     {
       "name": "Submesh_3_Albedo",
       "mimeType": "image/png",
-      "uri": "baseColor_4.png"
+      "uri": "Textures/Submesh_3_Albedo.png"
     },
     {
       "name": "Submesh_4_Emission",
       "mimeType": "image/png",
-      "uri": "emissive_4.png"
+      "uri": "Textures/Submesh_4_Emission.png"
     },
     {
-      "name": "NormalMap_Texture_4",
+      "name": "Submesh_4_Normal",
       "mimeType": "image/png",
-      "uri": "normal_5.png"
+      "uri": "Textures/Submesh_4_Normal.tga"
     },
     {
       "name": "Submesh_4_Albedo",
       "mimeType": "image/png",
-      "uri": "baseColor_5.png"
+      "uri": "Textures/Submesh_4_Albedo.png"
     },
     {
       "name": "Submesh_5_Emission",
       "mimeType": "image/png",
-      "uri": "emissive_5.png"
+      "uri": "Textures/Submesh_5_Emission.png"
     },
     {
       "name": "Submesh_5_Albedo",
       "mimeType": "image/png",
-      "uri": "baseColor_6.png"
+      "uri": "Textures/Submesh_5_Albedo.png"
     },
     {
-      "name": "NormalMap_Texture_6",
+      "name": "Submesh_6_Normal",
       "mimeType": "image/png",
-      "uri": "normal_6.png"
+      "uri": "Textures/Submesh_6_Normal.tga"
     },
     {
       "name": "Submesh_6_Albedo",
       "mimeType": "image/png",
-      "uri": "baseColor_7.png"
+      "uri": "Textures/Submesh_6_Albedo.png"
     }
   ],
   "buffers": [

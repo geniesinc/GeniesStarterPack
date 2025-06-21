@@ -69,6 +69,41 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Submesh_6
     second: {fileID: 2100000, guid: 0605fd606e58a45809dd52af4f2bcd4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: body_geo_mat
+    second: {fileID: 2100000, guid: 03384f6e6a7c94c759fca2bc14ba941d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: clothes_geo_mat
+    second: {fileID: 2100000, guid: 0605fd606e58a45809dd52af4f2bcd4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eyebrows_geo_mat
+    second: {fileID: 2100000, guid: 0ab33f968472b41738b7c0b059935fcc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eyelashes_geo_mat
+    second: {fileID: 2100000, guid: 77688b9f19aba4090ab1ee90642727a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eyes_geo_mat
+    second: {fileID: 2100000, guid: a81bfde86204341778774711407820e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair_geo_mat
+    second: {fileID: 2100000, guid: 9b7db6059dff541e7937d5d2f306e748, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mouth_geo_mat
+    second: {fileID: 2100000, guid: 87c98c0da3b94424585402c6de787871, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
